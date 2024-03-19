@@ -1,0 +1,20 @@
+/* / HP */
+body {
+    background-color: white;
+}
+/* / Tablet */
+@media screen and (min-width : 600px){
+    body {
+        background-color:  blue;
+    }
+}
+/* / Dekstop */
+@media screen and (min-width : 992px){
+    body {
+        background-color: green;
+    }
+}
+.picture {
+    color: black;
+    width: 150px;
+}
